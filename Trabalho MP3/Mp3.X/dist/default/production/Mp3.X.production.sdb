@@ -1,0 +1,532 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4520 ]
+[d frameptr 4065 ]
+"50 C:\Users\joaop\Desktop\Mp3.X\lcd.c
+[e E2364 pin_label `uc
+PIN_A0 0
+PIN_A1 1
+PIN_A2 2
+PIN_A3 3
+PIN_A4 4
+PIN_A5 5
+PIN_A6 6
+PIN_A7 7
+PIN_B0 8
+PIN_B1 9
+PIN_B2 10
+PIN_B3 11
+PIN_B4 12
+PIN_B5 13
+PIN_B6 14
+PIN_B7 15
+PIN_C0 16
+PIN_C1 17
+PIN_C2 18
+PIN_C3 19
+PIN_C4 20
+PIN_C5 21
+PIN_C6 22
+PIN_C7 23
+PIN_D0 24
+PIN_D1 25
+PIN_D2 26
+PIN_D3 27
+PIN_D4 28
+PIN_D5 29
+PIN_D6 30
+PIN_D7 31
+PIN_E0 32
+PIN_E1 33
+PIN_E2 34
+PIN_E3 35
+PIN_E4 36
+PIN_E5 37
+PIN_E6 38
+PIN_E7 39
+]
+"60 C:\Users\joaop\Desktop\Mp3.X\ssd.c
+[e E7 pin_label `uc
+PIN_A0 0
+PIN_A1 1
+PIN_A2 2
+PIN_A3 3
+PIN_A4 4
+PIN_A5 5
+PIN_A6 6
+PIN_A7 7
+PIN_B0 8
+PIN_B1 9
+PIN_B2 10
+PIN_B3 11
+PIN_B4 12
+PIN_B5 13
+PIN_B6 14
+PIN_B7 15
+PIN_C0 16
+PIN_C1 17
+PIN_C2 18
+PIN_C3 19
+PIN_C4 20
+PIN_C5 21
+PIN_C6 22
+PIN_C7 23
+PIN_D0 24
+PIN_D1 25
+PIN_D2 26
+PIN_D3 27
+PIN_D4 28
+PIN_D5 29
+PIN_D6 30
+PIN_D7 31
+PIN_E0 32
+PIN_E1 33
+PIN_E2 34
+PIN_E3 35
+PIN_E4 36
+PIN_E5 37
+PIN_E6 38
+PIN_E7 39
+]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"3 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"3 C:\Users\joaop\Desktop\Mp3.X\delay.c
+[v _atraso_ms atraso_ms `(v  1 e 1 0 ]
+"14 C:\Users\joaop\Desktop\Mp3.X\io.c
+[v _digitalWrite digitalWrite `(v  1 e 1 0 ]
+"54
+[v _pinMode pinMode `(v  1 e 1 0 ]
+"37 C:\Users\joaop\Desktop\Mp3.X\keypad.c
+[v _kpRead kpRead `(ui  1 e 2 0 ]
+"41
+[v _kpDebounce kpDebounce `(v  1 e 1 0 ]
+"89
+[v _kpInit kpInit `(v  1 e 1 0 ]
+"31 C:\Users\joaop\Desktop\Mp3.X\lcd.c
+[v _Delay40us Delay40us `(v  1 e 1 0 ]
+"36
+[v _Delay2ms Delay2ms `(v  1 e 1 0 ]
+"43
+[v _lcdCommand lcdCommand `(v  1 e 1 0 ]
+"68
+[v _lcdData lcdData `(v  1 e 1 0 ]
+"87
+[v _lcdInit lcdInit `(v  1 e 1 0 ]
+"115
+[v _lcdPosition lcdPosition `(v  1 e 1 0 ]
+"128
+[v _lcdStr lcdStr `(v  1 e 1 0 ]
+"15 C:\Users\joaop\Desktop\Mp3.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"23 C:\Users\joaop\Desktop\Mp3.X\musicas.c
+[v _iniciaMusica iniciaMusica `(v  1 e 1 0 ]
+"32
+[v _escolheMusica escolheMusica `(v  1 e 1 0 ]
+"73
+[v _tocaMusica tocaMusica `(v  1 e 1 0 ]
+"152
+[v _alterarVolume alterarVolume `(v  1 e 1 0 ]
+"24 C:\Users\joaop\Desktop\Mp3.X\pwm.c
+[v _pwmSet pwmSet `(v  1 e 1 0 ]
+"44
+[v _pwmFrequency pwmFrequency `(v  1 e 1 0 ]
+"51
+[v _pwmInit pwmInit `(v  1 e 1 0 ]
+"38 C:\Users\joaop\Desktop\Mp3.X\ssd.c
+[v _ssdDigit ssdDigit `(v  1 e 1 0 ]
+"54
+[v _ssdUpdate ssdUpdate `(v  1 e 1 0 ]
+"101
+[v _ssdInit ssdInit `(v  1 e 1 0 ]
+"52 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4520.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"271
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"450
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"632
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"774
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"1477
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1699
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1921
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2143
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2365
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"4501
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @4029 ]
+"4605
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @4030 ]
+"5315
+[v _T2CON T2CON `VEuc  1 e 1 @4042 ]
+"5413
+[v _PR2 PR2 `VEuc  1 e 1 @4043 ]
+"6168
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+"6258
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"6265
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+"6692
+[v _INTCON INTCON `VEuc  1 e 1 @4082 ]
+"25 C:\Users\joaop\Desktop\Mp3.X\keypad.c
+[v _valor valor `ui  1 s 2 valor ]
+"16 C:\Users\joaop\Desktop\Mp3.X\musicas.c
+[v _nomes nomes `[10][17]uc  1 e 170 0 ]
+"18
+[v _duracoes duracoes `[10]ui  1 e 20 0 ]
+[s S259 . 19 `ui 1 duracao 2 0 `[17]uc 1 nome 17 2 ]
+"19
+[v _musicas musicas `[10]S259  1 e 190 0 ]
+"21
+[v _tecla tecla `uc  1 e 1 0 ]
+[v _indice indice `uc  1 e 1 0 ]
+[v _flag flag `uc  1 e 1 0 ]
+[v _tempo tempo `uc  1 e 1 0 ]
+[v _minuto1 minuto1 `uc  1 e 1 0 ]
+[v _minuto2 minuto2 `uc  1 e 1 0 ]
+[v _segundo1 segundo1 `uc  1 e 1 0 ]
+[v _segundo2 segundo2 `uc  1 e 1 0 ]
+[v _pause pause `uc  1 e 1 0 ]
+[v _volume volume `uc  1 e 1 0 ]
+"32 C:\Users\joaop\Desktop\Mp3.X\ssd.c
+[v _valor@ssd$F238 valor `C[16]uc  1 s 16 valor ]
+"34
+[v _display display `uc  1 s 1 display ]
+"36
+[v _v0 v0 `uc  1 s 1 v0 ]
+[v _v1 v1 `uc  1 s 1 v1 ]
+[v _v2 v2 `uc  1 s 1 v2 ]
+[v _v3 v3 `uc  1 s 1 v3 ]
+"15 C:\Users\joaop\Desktop\Mp3.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"97
+[v main@i_178 i `uc  1 a 1 109 ]
+"75
+[v main@i_173 i `uc  1 a 1 108 ]
+"64
+[v main@i_172 i `uc  1 a 1 107 ]
+"61
+[v main@i_171 i `uc  1 a 1 106 ]
+"58
+[v main@i i `uc  1 a 1 105 ]
+"41
+[v main@logo logo `[48]uc  1 a 48 23 ]
+"21
+[v main@text8 text8 `[16]uc  1 a 16 71 ]
+"20
+[v main@text7 text7 `[10]uc  1 a 10 87 ]
+"19
+[v main@text6 text6 `[8]uc  1 a 8 97 ]
+"15
+[v main@F2434 F2434 `[8]uc  1 s 8 F2434 ]
+"19
+[v main@F2436 F2436 `[10]uc  1 s 10 F2436 ]
+"20
+[v main@F2438 F2438 `[16]uc  1 s 16 F2438 ]
+"33
+[v main@F2440 F2440 `[48]uc  1 s 48 F2440 ]
+"110
+} 0
+"101 C:\Users\joaop\Desktop\Mp3.X\ssd.c
+[v _ssdInit ssdInit `(v  1 e 1 0 ]
+{
+"111
+} 0
+"87 C:\Users\joaop\Desktop\Mp3.X\lcd.c
+[v _lcdInit lcdInit `(v  1 e 1 0 ]
+{
+"113
+} 0
+"54 C:\Users\joaop\Desktop\Mp3.X\io.c
+[v _pinMode pinMode `(v  1 e 1 0 ]
+{
+[v pinMode@pin pin `i  1 p 2 0 ]
+[v pinMode@type type `i  1 p 2 2 ]
+"73
+} 0
+"89 C:\Users\joaop\Desktop\Mp3.X\keypad.c
+[v _kpInit kpInit `(v  1 e 1 0 ]
+{
+"94
+} 0
+"23 C:\Users\joaop\Desktop\Mp3.X\musicas.c
+[v _iniciaMusica iniciaMusica `(v  1 e 1 0 ]
+{
+"25
+[v iniciaMusica@i i `ui  1 a 2 14 ]
+"30
+} 0
+"3 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 2 0 ]
+{
+"6
+[v strcpy@d d `*.39uc  1 a 2 12 ]
+"5
+[v strcpy@s s `*.39Cuc  1 a 2 10 ]
+"3
+[v strcpy@dest dest `*.39uc  1 p 2 6 ]
+[v strcpy@src src `*.39Cuc  1 p 2 8 ]
+"9
+} 0
+"32 C:\Users\joaop\Desktop\Mp3.X\musicas.c
+[v _escolheMusica escolheMusica `(v  1 e 1 0 ]
+{
+"71
+} 0
+"73
+[v _tocaMusica tocaMusica `(v  1 e 1 0 ]
+{
+"95
+[v tocaMusica@j j `uc  1 a 1 20 ]
+"150
+} 0
+"54 C:\Users\joaop\Desktop\Mp3.X\ssd.c
+[v _ssdUpdate ssdUpdate `(v  1 e 1 0 ]
+{
+"99
+} 0
+"38
+[v _ssdDigit ssdDigit `(v  1 e 1 0 ]
+{
+[v ssdDigit@val val `uc  1 a 1 wreg ]
+[v ssdDigit@val val `uc  1 a 1 wreg ]
+[v ssdDigit@pos pos `uc  1 p 1 0 ]
+[v ssdDigit@val val `uc  1 a 1 1 ]
+"52
+} 0
+"24 C:\Users\joaop\Desktop\Mp3.X\pwm.c
+[v _pwmSet pwmSet `(v  1 e 1 0 ]
+{
+[v pwmSet@porcento porcento `uc  1 a 1 wreg ]
+"31
+[v pwmSet@val val `ui  1 a 2 10 ]
+"24
+[v pwmSet@porcento porcento `uc  1 a 1 wreg ]
+"31
+[v pwmSet@porcento porcento `uc  1 a 1 9 ]
+"41
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"7
+[v ___lwdiv@dividend dividend `ui  1 p 2 0 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
+"30
+} 0
+"51 C:\Users\joaop\Desktop\Mp3.X\pwm.c
+[v _pwmInit pwmInit `(v  1 e 1 0 ]
+{
+"61
+} 0
+"44
+[v _pwmFrequency pwmFrequency `(v  1 e 1 0 ]
+{
+[v pwmFrequency@freq freq `ui  1 p 2 14 ]
+"49
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"10
+[v ___aldiv@quotient quotient `l  1 a 4 10 ]
+"11
+[v ___aldiv@sign sign `uc  1 a 1 9 ]
+[v ___aldiv@counter counter `uc  1 a 1 8 ]
+"7
+[v ___aldiv@dividend dividend `l  1 p 4 0 ]
+[v ___aldiv@divisor divisor `l  1 p 4 4 ]
+"41
+} 0
+"128 C:\Users\joaop\Desktop\Mp3.X\lcd.c
+[v _lcdStr lcdStr `(v  1 e 1 0 ]
+{
+"129
+[v lcdStr@i i `uc  1 a 1 12 ]
+"128
+[v lcdStr@str str `*.35Cuc  1 p 2 8 ]
+"135
+} 0
+"68
+[v _lcdData lcdData `(v  1 e 1 0 ]
+{
+[v lcdData@valor valor `uc  1 a 1 wreg ]
+"70
+[v lcdData@old_D old_D `uc  1 a 1 7 ]
+"68
+[v lcdData@valor valor `uc  1 a 1 wreg ]
+"71
+[v lcdData@valor valor `uc  1 a 1 6 ]
+"85
+} 0
+"115
+[v _lcdPosition lcdPosition `(v  1 e 1 0 ]
+{
+[v lcdPosition@linha linha `uc  1 a 1 wreg ]
+"116
+[v lcdPosition@comando comando `uc  1 a 1 10 ]
+"115
+[v lcdPosition@linha linha `uc  1 a 1 wreg ]
+[v lcdPosition@coluna coluna `uc  1 p 1 8 ]
+[v lcdPosition@linha linha `uc  1 a 1 9 ]
+"126
+} 0
+"43
+[v _lcdCommand lcdCommand `(v  1 e 1 0 ]
+{
+[v lcdCommand@cmd cmd `uc  1 a 1 wreg ]
+"44
+[v lcdCommand@old_D old_D `uc  1 a 1 6 ]
+"43
+[v lcdCommand@cmd cmd `uc  1 a 1 wreg ]
+"45
+[v lcdCommand@cmd cmd `uc  1 a 1 7 ]
+"66
+} 0
+"14 C:\Users\joaop\Desktop\Mp3.X\io.c
+[v _digitalWrite digitalWrite `(v  1 e 1 0 ]
+{
+[v digitalWrite@pin pin `i  1 p 2 0 ]
+[v digitalWrite@value value `i  1 p 2 2 ]
+"38
+} 0
+"36 C:\Users\joaop\Desktop\Mp3.X\lcd.c
+[v _Delay2ms Delay2ms `(v  1 e 1 0 ]
+{
+"37
+[v Delay2ms@i i `uc  1 a 1 1 ]
+"41
+} 0
+"31
+[v _Delay40us Delay40us `(v  1 e 1 0 ]
+{
+"32
+[v Delay40us@i i `uc  1 a 1 0 ]
+"34
+} 0
+"37 C:\Users\joaop\Desktop\Mp3.X\keypad.c
+[v _kpRead kpRead `(ui  1 e 2 0 ]
+{
+"39
+} 0
+"41
+[v _kpDebounce kpDebounce `(v  1 e 1 0 ]
+{
+"65
+[v kpDebounce@k k `i  1 a 2 6 ]
+"42
+[v kpDebounce@i i `uc  1 a 1 9 ]
+[v kpDebounce@j j `uc  1 a 1 8 ]
+"48
+[v kpDebounce@old_D old_D `uc  1 a 1 5 ]
+"43
+[v kpDebounce@tempo tempo `uc  1 s 1 tempo ]
+"44
+[v kpDebounce@valorNovo valorNovo `ui  1 s 2 valorNovo ]
+"45
+[v kpDebounce@valorAntigo valorAntigo `ui  1 s 2 valorAntigo ]
+"87
+} 0
+"152 C:\Users\joaop\Desktop\Mp3.X\musicas.c
+[v _alterarVolume alterarVolume `(v  1 e 1 0 ]
+{
+[v alterarVolume@opt opt `uc  1 a 1 wreg ]
+"158
+[v alterarVolume@old_D old_D `uc  1 a 1 7 ]
+"152
+[v alterarVolume@opt opt `uc  1 a 1 wreg ]
+[v alterarVolume@opt opt `uc  1 a 1 6 ]
+"185
+} 0
+"3 C:\Users\joaop\Desktop\Mp3.X\delay.c
+[v _atraso_ms atraso_ms `(v  1 e 1 0 ]
+{
+"5
+[v atraso_ms@i i `VEui  1 a 2 2 ]
+"4
+[v atraso_ms@k k `VEuc  1 a 1 5 ]
+[v atraso_ms@j j `VEuc  1 a 1 4 ]
+"3
+[v atraso_ms@t t `i  1 p 2 0 ]
+"12
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 13 ]
+[v ___awmod@counter counter `uc  1 a 1 12 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 8 ]
+[v ___awmod@divisor divisor `i  1 p 2 10 ]
+"34
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
